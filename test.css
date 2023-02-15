@@ -51,10 +51,22 @@ a {
   margin-bottom: -50px;
 }
 
-.wrapper-two {
+.wrapper-two.first {
   margin-bottom: 50px;
 }
 
-.wrapper-one.last {
-  margin-top: -80px;
+.wrapper-two.second {
+  margin-bottom: -30px;
+}
+
+@media only screen and (max-width: 700px) {
+  .grid-container {
+    width: 400px;
+    height: 500px;
+  }
+
+  .circle {
+    height: 110px;
+    width: 110px;
+  }
 }
