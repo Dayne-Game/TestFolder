@@ -17,8 +17,8 @@ a {
     justify-content: center;
     align-items: center;
 
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
 
     position: relative;
 
@@ -27,8 +27,8 @@ a {
 
 .circle {
     background: pink;
-    height: 70px;
-    width: 70px;
+    height: 95px;
+    width: 95px;
     border-radius: 100%;
     position: absolute;
 }
@@ -37,12 +37,12 @@ a {
     top: 0;
 }
 .circle-two {
-    top: 50px;
+    top: 70px;
     right: 0;
 }
 
 .circle-three {
-    top: 170px;
+    top: 240px;
     right: 0;
 }
 
@@ -51,35 +51,13 @@ a {
 }
 
 .circle-five {
-    top: 170px;
+    top: 240px;
     left: 0;
 }
 
 .circle-six {
-    top: 50px;
+    top: 70px;
     left: 0;
-}
-
-@media only screen and (min-width: 425px) {
-    .wrapper {
-        width: 400px;
-        height: 400px;
-
-        background: green;
-    }
-  
-    .circle {
-      height: 95px;
-      width: 95px;
-    }
-
-    .circle-two, .circle-six {
-        top: 70px;
-    }
-
-    .circle-three, .circle-five {
-        top: 240px;
-    }
 }
 
 @media only screen and (min-width: 750px) {
