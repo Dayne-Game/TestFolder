@@ -12,7 +12,6 @@ a {
 }
 
 .wrapper {
-    background: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,41 +30,123 @@ a {
     width: 85px;
     border-radius: 100%;
     position: absolute;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .circle-one {
+    background: #5b9bd5;
     top: 0;
 }
 .circle-two {
+    background: #55c3cf;
     top: 55px;
     right: 0;
 }
 
 .circle-three {
+    background: #50c8a7;
     top: 200px;
     right: 0;
 }
 
 .circle-four {
+    background: #b2e05b;
     bottom: 0;
 }
 
 .circle-five {
+    background: #4aba46;
     top: 200px;
     left: 0;
 }
 
 .circle-six {
+    background: #70ad47;
     top: 55px;
     left: 0;
+}
+
+.arrow {
+    height: 30px;
+    width: 30px;
+
+    position: absolute;
+    z-index: 100;
+    background-color: transparent !important;
+}
+
+.arrow.circle-one {
+    background-image: url('./arrows/circle-one-arrow.svg');
+    position: absolute;
+    top: 50px;
+    left: 112%;
+    transform: rotate(30deg);
+}
+
+.circle-two.arrow {
+    background-image: url('./arrows/circle-two-arrow.svg');
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    transform: rotate(90deg);
+}
+
+.circle-three.arrow {
+    background-image: url('./arrows/circle-three-arrow.svg');
+    position: absolute;
+    top: 70px;
+    left: -30px;
+    transform: rotate(150deg);
+}
+
+.circle-four.arrow {
+    background-image: url('./arrows/circle-four-arrow.svg');
+    position: absolute;
+    top: 5px;
+    left: -45px;
+    transform: rotate(210deg);
+}
+
+.circle-five.arrow {
+    background-image: url('./arrows/circle-five-arrow.svg');
+    position: absolute;
+    top: -43px;
+    left: 30%;
+    transform: rotate(-90deg);
+}
+
+.circle-six.arrow {
+    background-image: url('./arrows/circle-six-arrow.svg');
+    position: absolute;
+    top: -5px;
+    left: 90px;
+    transform: rotate(-35deg);
+}
+
+.circle-text {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+
+    text-align: center;
+
+        
+    color: #fff;
+}
+
+.circle:hover {
+    background:#7a909e;
 }
 
 @media only screen and (min-width: 750px) {
     .wrapper {
         width: 700px;
         height: 700px;
-
-        background: orange;
     }
   
     .circle {
@@ -79,5 +160,40 @@ a {
 
     .circle-three, .circle-five {
         top: 400px;
+    }
+
+    .arrow {
+        height: 60px;
+        width: 60px;
+    }
+
+    .circle-one.arrow {
+        top: 110px;
+        left: 190px;
+    }
+    .circle-two.arrow {
+        top: 195px;
+        left: 35%;
+    }
+    .circle-three.arrow {
+        top: 140px;
+        left: -70px;
+    }
+    .circle-four.arrow {
+        top: 10px;
+        left: -90px;
+    }
+    .circle-five.arrow {
+        top: -85px;
+        left: 30%;
+    }
+    .circle-six.arrow {
+        top: -10px;
+        left: 190px;
+    }
+
+    .circle-text {
+        font-size: 25px;
+        padding: 10px;
     }
 }
