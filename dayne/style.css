@@ -17,8 +17,8 @@ a {
     justify-content: center;
     align-items: center;
 
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
 
     position: relative;
 
@@ -27,8 +27,8 @@ a {
 
 .circle {
     background: pink;
-    height: 95px;
-    width: 95px;
+    height: 85px;
+    width: 85px;
     border-radius: 100%;
     position: absolute;
 }
@@ -37,12 +37,12 @@ a {
     top: 0;
 }
 .circle-two {
-    top: 60px;
+    top: 55px;
     right: 0;
 }
 
 .circle-three {
-    top: 230px;
+    top: 200px;
     right: 0;
 }
 
@@ -51,12 +51,12 @@ a {
 }
 
 .circle-five {
-    top: 230px;
+    top: 200px;
     left: 0;
 }
 
 .circle-six {
-    top: 60px;
+    top: 55px;
     left: 0;
 }
 
