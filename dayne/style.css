@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    height: 300px;
+
+    position: relative;
+
+    margin: auto;
+}
+
+.circle {
+    background: pink;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.circle-one {
+    top: 0;
+}
+.circle-two {
+    top: 50px;
+    right: 0;
+}
+
+.circle-three {
+    top: 170px;
+    right: 0;
+}
+
+.circle-four {
+    bottom: 0;
+}
+
+.circle-five {
+    top: 170px;
+    left: 0;
+}
+
+.circle-six {
+    top: 50px;
+    left: 0;
+}
+
+@media only screen and (min-width: 450px) {
+    .wrapper {
+        width: 400px;
+        height: 400px;
+    }
+  
+    .circle {
+      height: 95px;
+      width: 95px;
+    }
+
+    .circle-two, .circle-six {
+        top: 70px;
+    }
+
+    .circle-three, .circle-five {
+        top: 240px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .wrapper {
+        width: 700px;
+        height: 700px;
+    }
+  
+    .circle {
+      height: 170px;
+      width: 170px;
+    }
+
+    .circle-two, .circle-six {
+        top: 120px;
+    }
+
+    .circle-three, .circle-five {
+        top: 400px;
+    }
+}

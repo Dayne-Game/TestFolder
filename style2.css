@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    /* Set the gap between grid items */
+
+    width: 600px;
+    height: auto;
+    margin: auto;
+
+    background: orange;
+}
+
+.item {
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.circle {
+    background-color: orange;
+
+    border-radius: 100%;
+    padding: 70px;
+}
