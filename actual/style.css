@@ -145,7 +145,7 @@ a {
 
 @media only screen and (min-width: 750px) {
     .wrapper {
-        width: 700px;
+        width: 650px;
         height: 700px;
     }
   
@@ -169,7 +169,7 @@ a {
 
     .circle-one.arrow {
         top: 110px;
-        left: 190px;
+        left: 180px;
     }
     .circle-two.arrow {
         top: 195px;
@@ -177,7 +177,7 @@ a {
     }
     .circle-three.arrow {
         top: 140px;
-        left: -70px;
+        left: -50px;
     }
     .circle-four.arrow {
         top: 10px;
@@ -189,7 +189,7 @@ a {
     }
     .circle-six.arrow {
         top: -10px;
-        left: 190px;
+        left: 175px;
     }
 
     .circle-text {
